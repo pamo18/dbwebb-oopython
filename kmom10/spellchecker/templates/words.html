@@ -1,0 +1,12 @@
+{% include 'header.html' %}
+
+<div class="container" role="main">
+    <div class="page-header">
+        <h1>Here are all the words in {{ spellchecker.get_word_list() }}</h1>
+    </div>
+    <div class="content">
+        {{spellchecker.get_web_words() | safe}}
+    </div>
+</div>
+
+{% include 'footer.html' %}

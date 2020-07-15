@@ -1,0 +1,22 @@
+{
+    "details": "Generated for pamo18 at 2019-01-29 11:20:52.",
+    "key": "cccb511499da632bb0f1463b2d30eaf5",
+    "summary": {
+        "questions": 4,
+        "points": 8,
+        "pass": 8,
+        "passdistinct": 8
+    },
+    "points": {
+        "1.1": 2,
+        "1.2": 2,
+        "1.3": 2,
+        "1.4": 2
+    },
+    "answers": {
+        "1.1": "541355-8072",
+        "1.2": "Name: Skorstten SSN: 541355-8072 Address: Amador Withywoods Ademere",
+        "1.3": "Name: James SSN: 503233-4011 Address: Renere Withywoods Ceald Courses: webgl, ramverk2, oopython",
+        "1.4": 1
+    }
+}

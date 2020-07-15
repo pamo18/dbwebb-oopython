@@ -1,0 +1,144 @@
+{% include 'header.html' %}
+
+<div class="container" role="main">
+    <div class="page-header">
+        <h1>Redovisning</h1>
+    </div>
+
+    <p>Detta är redovisningssidan för kursen oopython-v2.</p>
+
+    <h2>Kmom01</h2>
+    <p>Nu har jag gjort klart mitt första kursmoment till kursen oopython-v2.  I detta kursmoment har jag installerat venv och Flask ihop med Jinja2.  Venv är en virtuell miljö som används för att installera paket som är isolerat från resten av systemet.  Genom venv har jag installerat Flask ihop med Jinja2 för att skapa webbapplikationer i en Python microramverk, där Jinja2 används för att rendera template-filer.  Det är första gången har jag använt dessa tekniker men installationen gick bra utan problem.</p>
+
+    <p>Jag känner igen objekt och klasser genom mitt tidigare arbete inom JavaScript.  Med denna tidigare kunskap kändes det helt naturligt med objektorienterad programmering inom Python.</p>
+
+    <p>Objektorienterad programmering är ett programmerings paradigm som är baserat på ett objekt, vilket innehåller data i form av attribut och metoder.  Dessa metoder är funktioner som är kopplade till objektet för att ändra, manipulera eller returnera objektets data.  En Klass är en mall för att skapa nya objekt, en ny instans av klassen som äger klassattribut samt instansattribut.</p>
+
+    <p>Ett instansattribut är en variabel som är definierade enbart till den instans av klassen.  Detta attribut är definierade i Konstruktormetoden som körs för att skapa en ny instans.  För att referera till objektet som skapats av konstruktorn använder vi parametern ”self” först i parameterlistan.  En instansmetod är en metod som använder instansens attribut och parametern ”self” används här med.</p>
+
+    <p>Ett statiskattribut är en variabel där värden är gemensamma i alla objekt kopplat till klassen, som att en person har 2 armar och 2 ben.  En statiskmetod är en metod som är kopplat till en klass men fungerar oberoende utav instansen och parametern ”self” används inte.  Däremot används ”@staticmethod” på raden ovanför metoden och kallas för en ”decorator”.</p>
+
+    <p>Den programmeringsparadigmen som jag känner till är Procedural programmering, där koden körs från topp till botten stegvis.  Nu känner jag även till Objektorienterad programmering som är baserat på objekt vilka innehåller attribut och metoder.</p>
+
+    <p>Nej, jag har aldrig använt Bootstrap förut men ser fram emot att lära mig mer om vad detta kan erbjuda framöver.</p>
+
+    <p>Jag tycker att detta kursmoment var lagom stort samt lagom svårt, där mest tid gick till åt läsandet.  Labben erbjuder ett bra sätt att testa sin kod på samt Flask ihop med Jinja2 är ett spännande sätt att bygga upp en webbsida med.</p>
+
+    <h2>Kmom02</h2>
+    <p>Nu är jag klar med kursmoment 2, där fokus ligger på arv och klassrelationer.  Att ärva attribut och metoder från en klass gör att man slipper onödig kod och repetition, samtidigt som den ger en central punkt för att ändra ett värde eller funktionalitet till alla kopplade klasser.</p>
+
+    <p>Inom objektorientering finns det användning av arv eftersom flera objekt kan vara likt men samtidigt unikt, där vissa detaljer skiljer åt bara.  Varför koda ett helt objekt till från grunden när man kan snabbt importera huvudfunktionalitet samt attribut och enbart ställa in det som skiljer sig åt.  En klass blir en mall som används för att bygga flera specifika subklasser med relationer genom arv, där man använder överskuggning för att anpassa funktionaliteten för subklassen.  Ett exempel skulle vara att huvudklassen Transport som används för att skapa specifika fordon subklasser.  En subklass då kan vara en bil, lastbil, motorcykel eller flygplan.  Dessa subklasser är relaterade och ärva transport klassens egenskaper samtidigt som de är unika i sig.</p>
+
+    <p>Det finns olika typer av klass relationer, arvs relation, komposition och aggregation.  Om en klass har en ”is-a” relation till en annan klass kallas det för arvs relationer.  Om en klass har en ”has-a” relation är den då en komposition eller aggregation relation.  En komposition har en stark relation, om ägaren slutar existerar så slutar den ägda att existera.  Ägaren har ansvar till den ägdas livslängd.  Ett rum existerar inte utan ett hus.  En aggregations relation är svagt kopplade, där den lånar delar av ett annat objekt men fortfarande lever om det andra objektet slutar existerar.  En person fortsätter att leva även om hunden dör.</p>
+
+    <p>Polymorphism är den egenskap att kunna finnas i många olika former, där ett objekt skapas och anpassas men är fortfarande relaterade till huvudklassen.  Som att en form kan vara en röd cirkel eller blå fyrkant men är fortfarande en sorts form.</p>
+
+    <p>Inkapsling är hur man gömmer ett objekts attribut och funktionalitet från den globala miljön för att skydda åtgång till objektets innehåll.  Ett interface används för att leverera data ut till den globala miljön på ett säkert sätt.  Att skapa en funktion, till exempel, som returnera ett av objektets attribut är en del av den publika interface.  Ett objekt äger sin egna data och allting utanför måste då gå igenom objektets interface för att komma åt specifika, förbestämd, data.</p>
+
+    <p>Jag bestämde att använda fritextsvar frågorna som basklass där de andra två frågetyper ärva från denna basklassen.  Jag tyckte det skulle fungera bäst så här eftersom fritextsvarens inskickade argument till konstruktorn är aktuell för alla frågetypen och kändes då mest kompatibel.  Det är lättare att lägga till flera argument till det två andra frågetypen, det olika svarsalternativet.</p>
+
+    <p>Jag tyckte att kursmoment var roligt men ändå utmanande.  Labben gick snabbt utan krångligheter och frågesports uppgiften gick också väldigt bra, men var lite svårare att komma igång med.  Det är alltid lättare att bygga ut sin egen kod än att förstå hur någon annan har tänkt.  Men uppgiften gick bra och var ändå kul.</p>
+
+    <p>Den typ av uppgift är både lärorikt och uttmanande, där man måste bygga något på riktigt och man lär sig alltid bättre då.  Krånglar något så lär man sig ännu mer när lösningen kommer fram.  Men som sagt, det är lättare att bygga något från grunden själv.</p>
+
+    <p>Jag gjorde extrauppgiften, klickar man på flera rätta svar så får man ett poäng för varje rätt svar.  Jag var tvungen att använda form.getlist(”answer”) för att komma åt alla inskickade värden från formen.</p>
+
+    <h2>Kmom03</h2>
+    <p>Kmom03 inom kursen oopython handlar om UML och unittest.</p>
+
+    <p>UML betyder Unified Modeling Language och är ett visuellt modelleringsspråk som kan användas för att förklara strukturen runt ett program med ritningar, likt byggnadsritningar.
+    Inom UML finns Struktur diagram och en variant av detta är klassdiagram, vilket jag har skapat för mitt War program.  I detta diagram förklarar jag visuella klass relationer emellan War, Hand, Deck och Card.  Med hjälp av en ritningssida har jag ritat ett diagram med flera kort som är uppdelat i tre delar.  Överst finns det klassens namn, under detta klassens attribut och nederst delen innehåller klassens metoder.  Publika attribut är symboliserat med en ’+’ och privata attribut med en ’-’.  Sedan finns det streck med pilar emellan dessa klass kort som förklarar klass relationer, som tex. komposition eller aggregation.  Ihop med detta finns det tal som specificerar antal objekt som är en del av relationen.   Genom dessa kort kan man se klart och tydligt en överblick av programmet och hur alla klasser är kopplade.  Detta är första gången jag har jobbat med UML men förstår redan nu hur viktigt det är att kunna se en visuell överblick av ett program utan att läsa någon kod.  För större och mer komplicerade program är det absolut nödvändigt med en hög kommunikationsnivå och UML kommer spela en stor roll i detta.</p>
+
+    <p>Unittester används för att testa att metoder eller funktioner gör som vi förväntar oss.  Med en testfil importerar vi ’unittest’ och använder detta för att skapa enhetstester.  En test kan vara att jämföra en metods retur värde med det värdet som vi förväntar oss, är inte dessa identiska så flaggas testet som ’fail’ och vi får information om vad som gick fel eller en ledtråd till var den gick fel.  Jag har inte använt Unittest förut men jag kan se här med att det finns mycket användning för verktyget och kommer definitivt utnyttja detta framöver.  Det är mycket lättare att bygga en slags sandlåda för att testa ett program för att säkerställa att allting fungerar som det ska.</p>
+
+    <p>Jag kan definitivt se nyttan med UML och tester i ett projekt, där det kan finnas ännu mer komplicerade program med många olika moduler och filer som ska samarbeta.  Samtidigt kan det vara många personer inblandade i ett Project så man måste använda alla hjälpmedel som finns för att öka chanserna till ett lyckat projekt.  Att skapa en testmiljö är en av den största delen i många projekt och med Unittest kan man lättare och säkrare skapa en testmiljö som håller förväntningar.</p>
+
+    <p>En så länge tycker jag att objektorienterad programmering är både intressant och logiskt.  Det är nästan lättare att förstår relationer och beteende runt ett objekt för att man kan relaterar till ett fysiskt objekt.  Det finns områden där procedural programmering har sina starka sidor och objektorienterad programmering har sina, utmaningen är bara att förstå vilken man ska använda och när.</p>
+
+    <p>Det gick bra med kursmomentet, det kändes både roligt och utmanande men ändå lagom.  Jag tycker man förstår ett programs uppbyggnad och funktionalitet bättre när man ritar ett klassdiagram så detta var definitivt en nyttig del av lärandet.</p>
+
+    <h2>Kmom04</h2>
+    <p>Nu har jag gjort klart kmom04 inom kursen oopython och det gick bra.</p>
+
+    <p>Inom detta kursmoment ligger fokus på error hantering och datastrukturer.  Istället för att använda den inbyggda listfunktionen så var målet att skapa en egen lista med hjälp av en länkad lista och noder.  Det finns olika sorters länkade listor som enkellänkade listor, dubbellänkade listor och en cirkulär länkad lista.  Jag har aldrig skapat en egen datastruktur, detta var första gången för mig.  Eftersom jag inte har jobbat med länkade listor och noder förut så valde jag att enbart jobba med enkellänkade listor för att får grepp på allting.  Man börjar med att skapa ett node objekt och den första noden i en icke-tom lista kallas för head och är listans huvud.  Sedan kan man komma åt resterande noder i listan genom att referera till huvudet.  Man skapar ett nytt node objekt och kopplar denna till listans huvud, head, genom att tilldela till head.next.  Man kan fortsätter att lägga till flera node objekt samt kan nu även traversera genom listan genom att ersätta pekaren från ”current_node” till ”current_node.next.</p>
+
+    <p>Jag skapade två program som använder sig av länkade listor och noder där en loop körs med olika menyval som är kopplade till olika klass metoder.  Första programmet använder sig av en Queue datastruktur, först in först ut.  Jag använde egen exceptions för att fånga ett fel så att programmet inte kraschar.  Om man göra ”peek” så testas först om listan är tom och ett meddelande visas istället för en krasch.  Det är samma exception om man försöker ta bort ett värde när listan är tom.  Det andra programmet använder sig av en unordered List med samma upplägg som första programmet men som erbjuder flera metoder.  Här har jag skapat fem olika egna exceptions som testar om listan är tom, om ett värde inte finns i listan, om ett inmatad indexvärde är högre en listans längd minus 1 samt om indexvärdet är lägre än noll och till slut om den inmatade indexvärdet är icke numerisk.  Med dessa exceptions har jag gjort ett försök för att undvika en krasch genom att fånga upp olika fel innan det är för sent.</p>
+
+    <p>Jag gjorde inte alla extrauppgifter för att jag har tidsbrist denna vecka med tanken på att det är sportlov och barnen är lediga, tyvärr.</p>
+
+    <p>Skillnaden emellan en länkad lista och en Array har att göra med deras struktur.  En Array är ett index baserat data struktur där varje element är associerat med en indexposition.  En länkad lista är en data struktur som innehåller en sekvens av nodes som är länkad till nästa noden.  Med en länkad lista så måste man börja med listans huvud och jobba igenom alla noder för att komma åt den önskade element och med en Array behöver man bara använda elementens position för att komma åt den.</p>
+
+    <p>Det gick bra i detta kursmoment men var lite klurigt att börja med.  Annars var det lagom både tidsmässigt och svårighetsmässigt.</p>
+
+    <h2>Kmom05</h2>
+    <p>Kmom05 inom kursen oopython handlade om Sorteringsalgoritmer och datastrukturer.  Man kan använda Pythons inbyggda sorteringsfunktion för listor eller så kan man göra en egen sortingsalgoritm.  Det finns flera olika sorterings varianter som tex. Bubble sort, Insertion sort, Merge sort och Quick sort.  Jag har lagt till funktionalitet så min egen UnorderedList kan sorteras med Bubble sort och Insertion sort.  Bubble sort fungerar genom att det största värdet ”bubblas” upp i listan följt av det näst största värdet där varje ”bubbla” går igenom hela listan en gång.  Insertion sort fungerar genom att använda en osorterad lista och en sorterad lista.  Värdet från den osorterade listan sätts in i den sorterade listan på rätt plats och värdena i den sorterade listan flyttas baserat på det nya värdet som ska placeras på rätt plats.  Både dessa sorterings tekniker fungerar som tänkt till min egen UnorderedList, där jag skickade in den för att sorteras med båda sorterings tekniker och med hjälp av metoderna get(), set() och size() kunde jag hantera den som en vanlig lista.  Labben gick också bra, där fokus ligger på rekursion.</p>
+
+    <p>Rekursion är ett sätt att programmera där en funktion anropar sig själv med ändrade tillstånd om och om tills ett basfall är nådd som då avslutar hela funktionen.  Man kan använda rekursion istället för en loop och det finns för och nackdelar till detta val.  En fördel är renare kod och en nackdel är att rekursiva funktioner tar upp mer minne.  I programmet till min UnorderedList har jag även skapat rekursiva sorterings varianter av Bubble och Insertion sort.</p>
+
+    <p>Jag känner att med denna övning har jag förstått hur sorteringsalgoritmerna fungerar och känner till fördelarna att kunna göra min egna sorteringsfunktioner som alternativ till de inbyggda.</p>
+
+    <p>Webbsidan VisuAlgo visar visuellt och förklarar väldigt bra hur alla de olika sorteringsalgoritmerna fungerar och var lite roligt att bläddra igenom.  Den finns väldigt mycket information att läsa igenom också.</p>
+
+    <p>Big-O Notation är språket som används för att förklara komplexiteten av en algoritm.  Den används för att specificera hur länge en algoritm ska ta för att köra igenom.  Med Big-O Notation kan man jämföra effektiviteten och tidskomplexitet av de olika sorterings algoritmer för att förstår vilken algoritm som ska användas och när.  Mängden data som ska sorteras är det viktigaste som kan påverka de olika algoritmerna.  Med Big O Notation använder man ”O(n)”, där ”n” refererar till inputens storlek, tex. hur många saker som finns i en lista och ”O” betyder ”order” och är en symbol som säger hur snabb en funktion växer.  Man kan då räkna ut den ”worst-case” komplexitet för att köra klart en algoritm.</p>
+
+    <p>Jag gjorde alla extra uppgifter som fanns att göra.</p>
+
+    <p>Ja, det gick bra att göra detta kursmoment men jag var lite fundersam i början på hur ni vill att jag skulle sortera min UnorderedList med Bubble sort och Insertion Sort.  Jag frågade en lärare som förklarade bättre än vad instruktionerna gjorde.  Det gick då bra till slut.  Annars var det ett lagom kursmoment tidsmässigt samt lagom svårt.</p>
+
+    <h2>Kmom06</h2>
+    <p>Nu är jag klar med kmom06 inom kursen oopython, där allting har gått bra.  Fokus i detta kursmoment ligger på datastrukturen träd.</p>
+
+    <p>Ett binärt sökträd, Binary Search Tree, är uppbyggt med noder där varje node har max två barn noder.  Trädet är likt ett familjeträd, där första värdet man lägger in är rotvärden och är så tills den är bortplockat.  Därefter läggs till alla nya värden som en vänster eller höger barn till rotvärdet.  Är värdet högre än rotvärdet så läggs den som rotens höger barn och om värdet är mindre så läggs den som rotens vänstra barn.  Med alla nya värden som följer efter så jämföras de först med rotvärdet för att sedan flytta till vänster eller höger och då startas en ny värdejämförelse för att till slut hitta den rätta placeringen.  Trädets struktur är alla noder med värden som är mindre än rotens värde finns på vänstersidan och alla värden som är högre än rotens värde finns på högersidan.  Om man, tex. bara matar in värden som är högre och högre så kommer trädet att bli skevt.  Då funkar den som en länkad lista istället.</p>
+
+    <p>Det gick bra att skapa rekursiva funktioner till min Binary Search Tree, där jag skapade en huvudmetod till varje uppdrag som sedan kopplas, om det behövs, till en rekursiv funktion.  I denna rekursiva funktion så ställs en del if/else statements följt av en retur till samma funktion för att kunna traversera genom noden och hitta det som efterfrågas.</p>
+
+    <p>I ett binärt sökträd, Inorder traversing hämtar data i en sorterad ordning, tex. 1,2,3.  Vi går förbi root noden och traversera vänster sidan av trädet genom en rekursiv funktion för att hitts det lägsta värdet och sedan genom alla noder på denna sida för att sedan jobba tillbaka till roten och vidare till högersidan av trädet.  Preorder traversing är använt för att göra en kopia av trädet där man besöker först root noden och vidare med en rekursiv funktion till alla noder på vänster sidan och sedan alla noder på höger sidan av trädet.  Med Postorder traversing går vi förbi root noden och traversera vänster så länger man kan och sedan tillbaka och höger, om möjligt, för att sedan traversera vänster så länge man kan.  Kan man inte traversera vänster eller höger så traversera man tillbaks och vidare till höger sidan av trädet med samma strategi och sedan till slut besöker man root noden.</p>
+
+    <p>En Hash Table är en datastruktur där adressen eller indexvärdet av ett dataelement är genererade genom en Hash funktion.  Det blir en sorts key/value par där key är generade genom en Hashing funktion.  En Hash Table blir snabbare att söka och lägga till data med denna hashings teknik.  Python dictionaries använder sig av Hash Tables.</p>
+
+    <p>En länkad lista använder sig av noder som lagrar värden samt en länk till nästa node i datorns minne.  Man kan använda denna struktur för mindre datalagring eftersom med mycket data blir den ineffektiv att traversera genom alla noder för att komma år det man vill.  Ett binärt sök träd lagra noder i olika minnesplatser på datorn där varje nod länkar till max två andra noder.  En Hash table är oftast snabbare än både länkade listor och ett binärt sök träd.  Jag har inte jobbat med Hash Tables men kommer undersöka potentialen med denna datastruktur.  Annars känner jag mig bekväm med både länkade listor och BST men kommer säkert använda mest det inbyggda Python lists och dictionaires.</p>
+
+    <p>Det gick bra med detta kursmoment, lagom men utmanande.  Det klurigaste var att skapa en remove funktion till mitt Binärt Sök Träd, men jag lyckades bra till slut.</p>
+
+    <h2>Kmom07-10</h2>
+    <p>Detta är redovisnings texten till mitt projektarbete för kmom10 inom kursen oopython.  I detta projekt har jag skapat ett program som läser in en textfil med engelska ord till ett Trie datastruktur som använder Node objekt.  En Trie datastruktur är en variant av ett sökträd där en key är oftast en sträng och en nodes position definierar vad en key har för associerande värde, där en node är en del av ett prefix till sina barn node.  Root noden i en Trie datastruktur har inget key värde och varje node kan ha flera barn noder tex. upp till 26st i den engelska alfabetet.</p>
+
+    <p>Med detta program kan man söka på ett ord för att se om det finns i listan, göra en prefixsökning, skriva ut hela listan samt byta ut textfil mot en annan.  Det finns både ett klassiskt while-loop terminal program och ett grafiskt gränssnitt på webben.  Jag gjorde alla sex kraven som fanns att göra i projektet.</p>
+
+    <h3>Krav 1</h3>
+
+    <p>Jag har implementerat en Trie datastruktur som använder Node objekt där varje node representerar en bokstav och innehåller en Dictionary för att hålla barn noden.  Det finns också en boolean attribut som markerar om noden är ett slut nod i ett ord.  Det finns metoder i Trie objektet för att lägga till ord, söka om ett ord finns i datastrukturen, gör en prefixsökning samt för att skriva ut alla ord.  Metoder för att skriva ut alla ord samt prefixsökningen använder sig av rekursiva funktioner.  I Spellchecker filen finns det ett menybaserat while loop som presenterar för användaren de olika val som kan väljas.  Varje menyval ropar en av Trie objektens metoder med önskade argument samt presenterar svaret på ett användarvänligt sätt.  SpellChecker har också flera egna metoder som tex. läser in en textfil med ord för att sedan lägga till varje ord i Trie objektet, sortera alla ord i Trie objektet innan utskrivningen genom Merge sort samt en metod för att byta ut en textfil och skapa ett nytt Trie objekt med nya ord.  I programmet kan man söka efter ett ord i Trie objektet där en boolean returneras och ett svar skrivs ut.  I prefixsökningen så skriver användaren in minst tre bokstäver och programmet söker i datastrukturen om det finns ord baserade på detta prefix.  Ett resultat skrivs ut som man sedan kan bygga på för att söka om det finns ord baserade på det nya prefixet.  Utskrivningen är begränsad till max 10st åt gången.  Det finns också ett menyval för att skriva ut alla ord samt för att byta textfilen.  Skriver man fel när man byter textfil eller om den är tom så har man möjligheten att skriva igen textfilens namn eller återställa programmet till den förinställd textfil.</p>
+
+    <h3>Krav 2</h3>
+
+    <p>Det första jag gjorde innan jag startade att programmera något var att rita ett Klassdiagram.  Den är redan inlämnad på Canvas.  Det finns tre filer i programmet med var sin klass: Node, Trie och SpellChecker.  Min ritning liknar slut programmet när det gäller klass relationer samt alla metoder och attribut som jag planerade finns med i slutprogrammet.  Men det finns några flera attribut och metoder som har tillkommit.  Störst skillnad I Node klassen är att det finns ett attribut för ordfrekvens samt en funktion för att lägga till ett barn node.  I Trie klassen finns det ett par rekursiva statiska metoder för prefixsökningen och utskrivningen av alla ord.  I SpellChecker klassen finns det metoder för att göra en Merge sort samt för att ta emot en sorterade lista från utskrivnings metoden som sedan anpassas till webb gränssnitten, alltså den bygger antigen en tabell eller paragraf av alla orden, beroende på vilken ordlista som används.</p>
+
+    <h3>Krav 3</h3>
+
+    <p>Jag har skapat en testfil, test.py, där det körs 10 olika tester totalt.  Det finns en TestCase för varje klass i programmet, där jag har testat både positiva utfall och när saker går fel.  Jag har testat olika metoder för att stämma av svaret mot det förväntade svar.  Jag har också medvetet försökt att lyfta fram errors genom, tex. att lägga in en siffra som en sträng och söka efter den som en integer.  Jag har byggt programmet med en del extra if/else statements samt try/except för att minimera risken att programmet kraschar.</p>
+
+    <h3>Krav 4</h3>
+
+    <p>Jag har implementerat en Merge sort algoritm som sorterar både en prefixsökningen mot ord frekvens samt för att skriva ut alla ord i bokstavsordning.  Merge sort använder sig av ’Divide and conquer’ metoden där den delar upp en lista i mitten på två delar om och om i en rekursiv funktion och när varje lista innehåller bara ett värde ska var sin sida jämföras för att se vilken är störst, frekvens, eller minst, bokstäver, som sedan returneras.  Denna Merge sort metod används för att sortera alla ordlistor i bokstavsordning samt för att sortera mot ord frekvens för krav 5 nedan.  Jag skickar med ett extra argument som används i en if/else statement för att hantera de två olika listor som finns, enbart bokstäver och bokstäver med frekvens.</p>
+
+    <h3>Krav 5</h3>
+
+    <p>Jag har implementerat funktionaliteten för att baser utskrifter för en prefixsökning på ordfrekvens, alltså det resulterande lista sorteras med ord motsvarande till hur vanliga de är.  I frekvens textfilerna innehåller det ord samt en siffra som säger hur vanligt ordet är.  I min Node objekt har jag lagt till attributen frekvens för att lagra denna siffra samtidigt som jag markerar en slut node.  Jag använde split() funktionen i Trie objektens metod för att lägga in ord, för att ta isär ordet och frekvens siffran.  När programmet skriver ut den så konkatenera jag ordet och frekvens värdet tillbaks till en och samma sträng.  När man gör en prefixsökning så sorteras den resulterande listan i Merge sort som, med hjälp av en if/else statement samt split() funktionen, sorteras frekvens siffran med högst värde först för vidare utskrivning, där max 10 ord skrivs ut.</p>
+
+    <h3>Krav 6</h3>
+
+    <p>Jag har implementerat ett grafiskt gränssnitt på webben med hjälp av flask.  Det finns en undersida för att skriva in ett ord och söka om den finns i den nuvarande ordlistan.  Här har jag använt en POST form där användare skriver in sitt önskade sökord som skickas vidare till en hanterings sida som är kopplat till programmet.  Det finns en sida som skriver ut alla orden i de olika ordlistorna, där en tabell visar orden och frekvensen från det två olika Frequency filer eller en paragraf som visar alla orden från de två olika Dictionary filer.  Jag har också lagt till möjligheten att byta textfilen i webbgränssnitten på en annan undersida, hoppas det var ok att göra så.  Webbsidan fungerar också på studentservern.  Väljer man den stora Dictionary filen på studentservern så tar det en stund för att sidan ska laddas klart, flask är inte optimalt prestandamässigt när man kör som en CGI app har jag märkt.</p>
+
+    <h3>Allmänt</h3>
+
+    <p>Detta projekt har gått bra för mig och var lagom utmanande samt lagom tidskrävande.  Man har lärt sig mycket under alla kursmomenten och allting kom till användning i detta projekt.  Det har varit intressant att jobba med en Trie datastruktur där man nu förstår hur det fungerar när man googlar något och efter bara några bokstäver kan man hitta ordförslag som är så pass relevanta.  Jag kan tänka mig att använda denna teknik i mina egna projekt framöver.  Jag tyckte inte att något specifikt strulade under projektet och jag är rätt stolt över några av mina lösningar till utmanande delar, som tex. att kunna hantera de två olika textfil varianter.  Det har varit ett roligt projekt.</p>
+
+    <h3>Kursen</h3>
+
+    <p>Jag tycker att kursen har varit en av det mer utmanande kurser hittills under webbprogrammerings programmet.  Att förstår hur man kan bygga egna datastrukturer med olika sorterings algoritm känns rätt mäktigt men det tog ett litet tag att greppa ordentligt.  Jag tyckte att ni förklarade de mesta väldigt bra i genomgångarna men hade lite svårt att förstå era online instruktioner till vissa kursmoment.  Det kändes lite oklart ibland.  Kurslitteraturen var bra valda och informativa och det fanns många relevanta artiklar att läsa.  Jag har självklart hittat andra intressanta artiklar och informationskällor online men jag tycker att kursmaterialen räcker långt.  Nu känner jag mig bättre förberedd för framtida utmaningar där jag har ännu mer verktyg under bältet.  Kursen har varit väldigt lärorikt och intressant.  Jag kan definitivt rekommendera denna kurs till mina vänner och kollegor.</p>
+
+    <p>På en skala av 1-10 så ger jag kursen en 8.</p>
+
+</div>
+
+{% include 'footer.html' %}

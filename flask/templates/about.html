@@ -1,0 +1,23 @@
+{% include 'header.html' %}
+
+<div class="container" role="main">
+    <div class="page-header">
+        <h1>Om denna sida</h1>
+    </div>
+
+    <p>Denna webbsida är en del av kursen {{ course.get_name() }} hos Blekinge Tekniska Högskola och är uppbyggd med Flask ihop med Jinja2 inom en virtuell miljö, venv, i Python.  Jag använder också pakethanteraren PIP för att installera externa python moduler.</p>
+
+    <p><a href="http://flask.pocoo.org">Flask</a> är ett microramverk för Python, som gör det möjligt att skapa webbapplikationer. Det är litet men kraftfullt.</p>
+
+    <p><a href="http://jinja.pocoo.org">Jinja2</a> är en så kallad “template engine” för Python som renderar template-filer åt oss.</p>
+
+    <p><a href="https://docs.python.org/3/library/venv.html">venv</a> är ett sätt att isolera paket från övriga paket installerade på resten av ett system. Detta gör att jag kan installera paket för specifika projekt utan att det krockar med globala installationer eller andra projekts installationer.</p>
+
+    <p><a href="https://pip.pypa.io/en/latest/">PIP</a> är ett pakethanterare för externa python moduler.</p>
+
+    <p><a href="https://dbwebb.se/kurser/oopython-v2">Läs mer om kursen oopython.</a></p>
+
+    <div class="course-logo"><a href="https://www.python.org"><img class="logo" src="{{ course.get_logo() }}" alt="Python"></a></div>
+</div>
+
+{% include 'footer.html' %}

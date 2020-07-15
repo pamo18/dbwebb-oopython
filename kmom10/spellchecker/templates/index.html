@@ -1,0 +1,21 @@
+{% include 'header.html' %}
+
+<div class="container" role="main">
+    <div class="page-header">
+        <h1>Welcome to PAMO Spellchecker!</h1>
+        <h3 class="center">Type the word you want to find below</h3>
+    </div>
+
+    <div class="content">
+        <form role="form" method="POST" action="{{ url_for('find_word') }}">
+            <label for="answer">Type a word below</label>
+            <input type="text" name="find" class="form-control" autofocus/>
+            <button type="submit" class="btn btn-success btn-lg btn-block">Find word</button>
+        </form>
+        <div class="result">
+            <p class="result_text">{%- if result %} {{ result }} {%- else %} Result will be shown here! {% endif %}</p>
+        </div>
+    </div>
+</div>
+
+{% include 'footer.html' %}

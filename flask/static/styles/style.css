@@ -1,0 +1,49 @@
+
+body {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    background-color: #eee;
+}
+
+.content {
+    padding: 2em;
+}
+
+.page-header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+figcaption {
+    font-weight: bold;
+}
+
+.me {
+    width: 150px;
+    float: left;
+    margin-right: 1em;
+    border-radius: 10px;
+}
+
+.man {
+    margin-top: 2em;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.course-logo {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.logo {
+    border-radius: 10px;
+    width: 70%;
+}

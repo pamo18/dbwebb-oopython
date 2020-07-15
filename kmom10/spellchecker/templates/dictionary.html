@@ -1,0 +1,26 @@
+{% include 'header.html' %}
+
+<div class="container" role="main">
+    <div class="page-header">
+        <h1>Welcome to PAMO Spellchecker!</h1>
+        <h3 class="center">Change the dictionary below</h3>
+    </div>
+
+    <div class="content">
+        <form role="form" method="POST" action="{{ url_for('change_dictionary') }}">
+            <label for="answer">Choose the dictionary below</label>
+            <select name="dictionary">
+                  <option value="dictionary.txt"{%- if spellchecker_list == "dictionary.txt" %} selected {% endif %}>Full Dictionary</option>
+                  <option value="tiny_dictionary.txt"{%- if spellchecker_list == "tiny_dictionary.txt" %} selected {% endif %}>Tiny Dictionary</option>
+                  <option value="frequency.txt"{%- if spellchecker_list == "frequency.txt" %} selected {% endif %}>Frequency Dictionary</option>
+                  <option value="tiny_frequency.txt"{%- if spellchecker_list == "tiny_frequency.txt" %} selected {% endif %}>Tiny Frequency Dictionary</option>
+            </select>
+            <button type="submit" class="btn btn-success btn-lg btn-block">Change</button>
+        </form>
+        <div class="result">
+            <p class="result_text">The current dictionary is: {{spellchecker_list}}</p>
+        </div>
+    </div>
+</div>
+
+{% include 'footer.html' %}
